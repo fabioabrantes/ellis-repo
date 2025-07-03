@@ -10,3 +10,4 @@ services:
       - .:/app # Monta o diretório atual (onde está seu código) em /app dentro do container.
                # Isso é ótimo para desenvolvimento, pois as alterações no código
                # são refletidas automaticamente no container devido ao --reload do uvicorn.
+ 
